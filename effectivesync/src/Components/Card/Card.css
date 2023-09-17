@@ -1,0 +1,113 @@
+.card {
+  background-color: #fff9df;
+  /* height: 170px; */
+  margin: 10px;
+  border-radius: 15px;
+  flex-direction: row;
+  overflow: hidden;
+  /* position: relative; */
+  cursor: move;
+  font-family: "Ubuntu"
+}
+
+.displayImage {
+  width: 100%;
+}
+
+.headerWrapper {
+  display: flex;
+  padding-top: 10px;
+}
+
+.priority {
+  flex-grow: 1;
+  background-color: orange;
+  text-align: center;
+  border-radius: 15px;
+  margin-left: 10px;
+  font-size: 12px;
+  width: 30px;
+  font-weight: 700;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dueDate {
+  font-size: 12px;
+  /* background-color: white; */
+  padding: 7px;
+  font-weight: 700;
+}
+
+.spaceContainer {
+  flex-grow: 2;
+}
+
+.description {
+  padding: 10px;
+  text-align: center;
+}
+
+.utilityWrapper {
+  padding-left: 10px;
+  padding-bottom: 7px;
+  display: flex;
+  flex-direction: row;
+}
+
+.cardIcon {
+  width: 22px;
+  height: 22px;
+  padding-right: 20px;
+}
+
+.dueDate {
+  font-size: 13px;
+}
+
+.progressWrapper {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  align-items: center;
+}
+
+.progressText {
+  font-size: 13px;
+}
+
+.progessbar {
+  height: 10px;
+  background-color: #cbcbbf;
+  margin: 10px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 10px;
+  background-color: #ee2a2e;
+  width: 15%;
+  text-align: center;
+}
+
+.footerWrapper {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  align-items: baseline;
+  padding-bottom: 10px;
+}
+
+.count {
+  font-size: 12px;
+  padding-left: 3px;
+  padding-right: 15px;
+}
+
+.footerIcon {
+  width: 20px;
+  height: 20px;
+}

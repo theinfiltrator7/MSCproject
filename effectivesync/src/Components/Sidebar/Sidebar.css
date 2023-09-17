@@ -1,0 +1,52 @@
+.sidebarWrapper {
+  /* position: fixed; */
+  position: fixed;
+  z-index: 2;
+  width: 250px;
+  min-width: 250px;
+  max-width: 250px;
+  height: 100vh;
+  background-color: lightblue;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.listWrapper {
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.list {
+  padding: 5px;
+  padding-top: 15px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.sidebarSubList {
+  margin-left: 5px;
+  /* padding-left: 5px; */
+  font-size: 16px;
+}
+
+.sidebarIcon {
+  width: 12px;
+  height: 12px;
+  padding-right: 5px;
+  /* background-color: red; */
+}
+
+.sidebarSubListWrapper {
+  font-size: 15px;
+  margin: 10px;
+  margin-left: 20px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.addBoardWrapper {
+    display: flex;
+    flex-direction: row;
+}

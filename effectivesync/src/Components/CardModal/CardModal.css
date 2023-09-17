@@ -1,0 +1,135 @@
+.cardModalWrapper {
+    padding: 20px;
+    font-family: "Ubuntu";
+}
+
+.modalHeaderWrapper {
+    display: flex;
+    padding-bottom: 20px;
+  }
+  
+  .modalHeaderFiller {
+    flex-grow: 2;
+  }
+  
+  .modalPriorityWrapper {
+    width: 200px;
+  }
+  
+  .modalHeading {
+    /* padding-left: 40px; */
+    font-weight: 700;
+    margin-bottom : 15px;
+    font-size: 20px;
+  }
+  
+  .modalSubHeading {
+    font-weight: 400;
+    padding-left: 10px;
+  }
+
+  .descriptionInputText {
+    width: 97%;
+    height: 100px;
+    font-family: "Ubuntu";
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background-color: #cbcbbf;
+  }
+
+  .dueDateWrapper {
+    padding-bottom: 103ox;
+    /* background-color: red; */
+  }
+  
+  .checklistWrapper {
+    display: flex;
+    align-items: center;
+    padding-right: 90px;
+  }
+  
+  .newCheckListWrapper {
+    border-width: 100px;
+    border: 1px solid black;
+    background-color: #7c9d96;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .itemHeadingWrapper {
+    display: flex;
+  }
+  
+  .itemHeadings {
+    padding-right: 10px;
+    font-weight: 500;
+  }
+  .checkListItemWrapper {
+    align-items: center;
+    padding-right: 10px;
+  }
+  
+  .checklistDescription {
+    text-align: center;
+    padding-left: 30px;
+  }
+  
+  .checklistHours {
+    text-align: center;
+    padding-left: 20px;
+  }
+  
+  .listInputHours {
+    text-align: center;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 15px;
+    border-color: black;
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  
+  .listInputDescription {
+    margin-left: 10px;
+    margin-right: 15px;
+    width: 40vw;
+    margin-top: 5px;
+    border-color: black;
+    height: 25px;
+    border-radius: 5px;
+  }
+  
+  .addItemButton {
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  
+  .modalCommentWrapper {
+    display: flex;
+    padding-left: 20px;
+  }
+  
+  .commentContentWrapper {
+    padding-left: 20px;
+  }
+  
+  .commentNameIcon {
+    border-radius: 50%;
+    background-color: #cbcbbf;
+    width: 20px;
+    height: 20px;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .commentContent {
+    background-color: #7c9d96;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,36 @@
+.taskHeadingWrapper {
+  display: flex;
+  background-color: rebeccapurple;
+  width: 83vw;
+  height: 50px;
+  justify-content: center;
+}
+
+.taskHeading {
+  text-align: center;
+  flex-grow: 2;
+}
+
+.taskHeadingSmall {
+  width: 180px;
+  background-color: red;
+  text-align: center;
+}
+
+.taskContentWrapper {
+  margin-top: 20px;
+  margin-left: 270px;
+  max-width: 83vw;
+  display: flex;
+}
+
+.taskContent {
+  flex-grow: 2;
+  background-color: red;
+}
+
+.taskContentSmall {
+  background-color: palegreen;
+  width: 180px;
+  text-align: center;
+}

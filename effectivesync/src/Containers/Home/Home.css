@@ -1,0 +1,105 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: "Ubuntu";
+}
+
+.column {
+  /* margin-left: 240px; */
+  display: flex;
+  flex-direction: row;
+  /* flex-grow: 2; */
+}
+.content {
+  display: flex;
+  padding-top: 60px;
+  width: 100vw;
+}
+
+.inputText {
+  height: 100px;
+  width: 55vw;
+  font-size: 17px;
+  padding: 10px;
+  background-color: #7c9d96;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  border-radius: 5px;
+  font-family: "Ubuntu";
+}
+
+
+.homeContent {
+  /* display: flex; */
+  flex-direction: row;
+  margin-top: 20px; 
+}
+
+.homeSubContent {
+  display: flex;
+  flex-direction: row;
+  margin-left: 260px;
+
+}
+
+.homeBoardTitle {
+  margin-left: 285px;
+  font-size: 22px;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #7c9d96;
+  width: 78vw;
+  height: 80px;
+  text-align: center;
+  border-radius: 15px;
+  padding-top: 15px;
+}
+
+.addListHomeWrapper {
+  margin-left: 270px;
+}
+
+.addListHome {
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.newListWrapperHome {
+  text-align: center;
+  background-color: #3a958f;
+  font-family: "Ubuntu", sans-serif;
+  height: 100px;
+  border-radius: 15px;
+  padding: 10px;
+  width: 240px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.memberContentWrapper {
+  padding: 30px;
+  width: 50%;
+}
+
+.memberHeading {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.memberDetailsWrapper {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.memberDetails {
+  /* padding-top: 20px; */
+  flex-grow: 2;
+}
+
+.memberDetailItems {
+  padding: 10px;
+}

@@ -1,0 +1,32 @@
+.memberWrapper {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.memberHeading {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contentWrapper {
+  margin-left: 230px;
+  padding: 30px;
+  width: 50%;
+}
+
+.detailsWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.details {
+  padding-top: 20px;
+  flex-grow: 2;
+}
+
+.detailItems {
+  padding: 10px;
+}
